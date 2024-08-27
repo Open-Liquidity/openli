@@ -149,6 +149,25 @@ const Footer = () => {
                 Medium
               </a>
             </div>
+            {/* <div className="flex flex-col gap-4">
+              <p className="text-primary ">Liquidity Marketplace Contracts</p>
+              <a
+                href=""
+                className="text-subtextDark hover:text-maintextDark "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                for UNCX Locks on BSC
+              </a>
+              <a
+                href=""
+                className="text-subtextDark hover:text-maintextDark "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                for PinkSale Locks on BSC
+              </a>
+            </div> */}
           </div>
         </div>
         <div className="gap-5 items-start hidden lg:flex min-w-[200px]">

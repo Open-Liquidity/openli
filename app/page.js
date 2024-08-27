@@ -7,6 +7,7 @@ import Security from "@/components/Security";
 import Image from "next/image";
 import WhyUs from "@/components/WhyUs";
 import Contacts from "@/components/Contacts";
+import Roadmap from "@/components/Roadmap";
 
 export default function Home() {
   return (
