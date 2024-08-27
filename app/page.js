@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Security from "@/components/Security";
 import Image from "next/image";
+import WhyUs from "@/components/WhyUs";
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -18,6 +20,10 @@ export default function Home() {
           <Image src="/ecosystem.svg" alt="ecosystem" width={1700} height={806} className="w-full"/>
         </div>
       </div>
+      <Divider />
+      <WhyUs />
+      <Divider />
+      <Contacts />
       <Divider />
       <Security />
       <Footer />
