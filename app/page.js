@@ -25,7 +25,9 @@ export default function Home() {
       <Divider />
       <Contacts />
       <Divider />
-      <Security />
+      <Roadmap />
+      {/* <Divider />
+      <Security /> */}
       <Footer />
       </div>
     </main>
